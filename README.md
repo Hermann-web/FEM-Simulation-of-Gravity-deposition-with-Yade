@@ -27,7 +27,7 @@ Voici dans le cas général, l’ensemble des étapes à suivre pour effectuer u
 - On ajoute les spheres au O.bodies
 - On definit la géométrie, interactions, loi de comportement à utiliser
 
-# Etape5 : Simalution
+# Etape5 : Simulation
 ### Remplissage d’un cylindre par des particules soumises à leur poids
 <pre>
 #création du conclour cylindrique
@@ -44,6 +44,7 @@ sp.makeCloud((0,0,0),(1,1,2),rMean=0.05,rRelFuzz=.5)
 # add the sphere pack to the simulation
 sp.toSimulation()
 </pre>
+![image](https://user-images.githubusercontent.com/69398651/135937871-2292c59c-51eb-4012-afaf-bbc6115b4578.png)
 
 ### Changer le type de contact
 On change la loi du contact pour passer à la contrainte calculée  
@@ -91,7 +92,12 @@ piston.state.vel = (0,0,-0.8)
 
 
 ### Mouvements des grains
-  
+![image](https://user-images.githubusercontent.com/69398651/135937776-5a01d281-f071-43ba-a60c-52ab0848b97e.png)![image](https://user-images.githubusercontent.com/69398651/135937801-d5d7594c-8401-4ae3-a2ae-952647816cf3.png)![image](https://user-images.githubusercontent.com/69398651/135937989-651990c2-091a-4747-bae3-2ab19495d151.png)![image](https://user-images.githubusercontent.com/69398651/135937998-4b534469-3c21-4fa6-8a7a-f7bed0ad48be.png)
+
+![image](https://user-images.githubusercontent.com/69398651/135937829-934b7344-5f18-4bd2-83fc-e7b970468f60.png)
+
+
+
   
 ### Evolution du réseau de force
 Le réseau de force est ajouté à la figure. L’affichage de cette option est disponible sur le simulateur

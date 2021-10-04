@@ -102,13 +102,13 @@ On remarque que les forces normales
 	Evolution de la contrainte σ_zz (z)
 
 ### Interprétation des résultats
-	Energie Cinétique
-	Pendant la descente sous le poids : l’energie cinétique croit puis décroit à l’équilibre pendant la descente du piston. Ce qui est normal puisqu’au départ, on laisse les grains tomber sous leur poids, donc leur vitesse augmente due à l’accélération constante. Ensuite, les boules tombent dans le fond de la boite et leur vitesse moyenne sera alors très faible
-	Pendant l’appui : l’énergie cinétique augmente puis décroit. Ceci s’explique aussi par le fait que : Au début de la compression, les grains se mettent en mouvement puis ils sont totalement comprimé
-	Remarque supplémentaire : Quand on continue la simulation à l’aide du bouton « play » de l’interface, les boulent bondissent, sortent de la boite puis retombent
-	Evolution de la contrainte globale sigma_zz
-	Pendant la descente sous le poids : La contrainte est constamment nulle puis prend un pic avant de varier en suivant des formes triangulaires (min=-1200, max=1300 sur un exemple)
-	Pendant l’appui : La contrainte (en valeur absolue elle est négative pour une compression) monte rapidement vers un nouveau maximum (6,48 e4)
+Energie Cinétique
+- Pendant la descente sous le poids : l’energie cinétique croit puis décroit à l’équilibre pendant la descente du piston. Ce qui est normal puisqu’au départ, on laisse les grains tomber sous leur poids, donc leur vitesse augmente due à l’accélération constante. Ensuite, les boules tombent dans le fond de la boite et leur vitesse moyenne sera alors très faible
+- Pendant l’appui : l’énergie cinétique augmente puis décroit. Ceci s’explique aussi par le fait que : Au début de la compression, les grains se mettent en mouvement puis ils sont totalement comprimé
+- Remarque supplémentaire : Quand on continue la simulation à l’aide du bouton « play » de l’interface, les boulent bondissent, sortent de la boite puis retombent
+Evolution de la contrainte globale sigma_zz
+- Pendant la descente sous le poids : La contrainte est constamment nulle puis prend un pic avant de varier en suivant des formes triangulaires (min=-1200, max=1300 sur un exemple)
+- Pendant l’appui : La contrainte (en valeur absolue elle est négative pour une compression) monte rapidement vers un nouveau maximum (6,48 e4)
 
 # Conclusion
 La prédiction des comportements des matériaux granulaires est faisable à l’aide de Yade disponible sur Linux. Si on veut de meilleures visualisations, on peut utiliser paraview. Cela n’a pas été utile dans notre TP.
